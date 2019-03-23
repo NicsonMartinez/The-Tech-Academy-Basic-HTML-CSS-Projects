@@ -1,0 +1,104 @@
+body {
+    background-color: #67c5db;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+a, a:active, a:link, a:visited { /* These are all different style properties and we want to catch them all */
+    color: #dedee0;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#fff;
+}
+
+.container {
+    width: 100%;
+    height: 323px;
+}
+
+.login {
+    width: 500px;
+    height: 323px;
+    border: 2px solid #a1a1a1; /* Thinckness, style, and color*/
+    box-shadow: inset 0 0 5px #a1a1a1;
+    border-radius: 10px; /* since he only put one value 10px that means for all top, right, bottom, and left. 
+    Had he done 10px 10px, the first one would have been top and bottom, the second one would have been right and left */ 
+    margin: 10% auto;
+}
+
+.form_header { /*Editing the "Please Login" */ 
+    width: 100%;
+    height: 10%;
+    background-color: #dedee0;
+    border-bottom: 2px solid #a1a1a1;
+    text-align: center;
+    padding: 3% 0 0 0;
+    border-radius: 10px 10px 0 0;
+}
+
+form {
+    background-color: #eff0f2;
+    padding: 5% 5%;
+    border-radius: 0 0 10px 10px;
+}
+
+input [type="text"],
+input [type="password"] {
+    outline: none; /* when you put your mouse over it has a blue outline, we're taking that away*/
+    font-size: 20px;
+    width: 450px1;
+    font-family: caption;
+    border: 4px double #dedee0;
+    padding: 5px;
+    margin: 5% 0 0 0;
+}
+
+input [type="text"]:focus, 
+input [type="password"]:focus { /*focus as in, if the user actually clicks in the field, this is what will happen*/
+    border: 0 0 5px #000;
+    box-shadow: inset 0 0 10px #a1a1a1;
+}
+
+.btn {
+    outline: none; 
+    color: #a1a1a1;
+    font-weight: bold;
+    font-size: 20;
+    width: 125px;
+    height: 50px;
+    margin: 45px 0 0 110px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #dedee0;
+    border: 2px solid #a1a1a1;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #dedee0;
+    box-shadow: inset 0 0 5px #000;
+}
+
+.chk {
+    margin: 5% 0 0 0;
+}
+
+.rem {
+    margin: 5% 0 0 10px;
+    font-size: 12px;
+}
+
+.forgot {
+    width: 100%;
+    font-size: 3em;
+}
+
+.forgot a {
+    margin: 0 0 0 35%;
+}
+
