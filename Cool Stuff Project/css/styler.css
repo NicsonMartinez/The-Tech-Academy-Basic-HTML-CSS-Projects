@@ -1,0 +1,24 @@
+.registration {
+    background-color: rgb(24, 24, 63);
+    width: 60%;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0px auto;
+    
+}
+
+
+.registration h2, 
+.registration p,
+.terms
+{
+    text-align: center;
+    color: #fff;
+}
+
+.registration input[type="text"] {
+    width: 70%;
+    font-size: 30px;
+    border-radius: 7px;
+    margin: 0 50px 0 100px;
+}
